@@ -5,7 +5,7 @@ const storyStages = {
             { text: "Explore the beach", consequence: "page2A" },
             { text: "Enter the jungle", consequence: "page2B" }
         ],
-        image: "Images/page1.jpg"
+        image: "page1.jpg"
     },
     page2A: {
         text: "You find a small boat on the shore. What do you do?",
@@ -13,7 +13,7 @@ const storyStages = {
             { text: "Take the boat", consequence: "page3A" },
             { text: "Look for food", consequence: "page3B" }
         ],
-        image: "Images/page2.jpg"
+        image: "page2.jpg"
     },
     page2B: {
         text: "You hear strange noises in the jungle. How do you react?",
@@ -21,7 +21,7 @@ const storyStages = {
             { text: "Investigate the noise", consequence: "page3C" },
             { text: "Climb a tree for safety", consequence: "page3D" }
         ],
-        image: "images/page3.jpg"
+        image: "page3.jpg"
     },
     page3A: {
         text: "The boat leads to another island. You see a cave.",
@@ -29,7 +29,7 @@ const storyStages = {
             { text: "Enter the cave", consequence: "page4A" },
             { text: "Stay on the shore", consequence: "page4B" }
         ],
-        image: "images/page4.jpg"
+        image: "page4.jpg"
     },
     page3B: {
         text: "You find some berries but hear rustling behind you.",
@@ -37,7 +37,7 @@ const storyStages = {
             { text: "Run away", consequence: "page4C" },
             { text: "Turn around slowly", consequence: "page4D" }
         ],
-        image: "images/page5.jpg"
+        image: "page5.jpg"
     },
     page3C: {
         text: "You find an ancient temple in the jungle!",
@@ -45,7 +45,7 @@ const storyStages = {
             { text: "Enter the temple", consequence: "page4E" },
             { text: "Walk around it", consequence: "page4F" }
         ],
-        image: "images/page3C.jpg"
+        image: "page7.jpg"
     },
     page3D: {
         text: "You climb a tree and spot smoke in the distance.",
@@ -53,7 +53,7 @@ const storyStages = {
             { text: "Go towards the smoke", consequence: "page4G" },
             { text: "Stay hidden in the tree", consequence: "page4H" }
         ],
-        image: "images/page8.jpg"
+        image: "page8.jpg"
     },
     page4A: {
         text: "The cave is dark and eerie. Do you proceed?",
@@ -61,7 +61,7 @@ const storyStages = {
             { text: "Go deeper", consequence: "page5" },
             { text: "Turn back", consequence: "page5" }
         ],
-        image: "images/page7.jpg"
+        image: "page7.jpg"
     },
     page4B: {
         text: "You wait but nothing happens.",
@@ -69,7 +69,7 @@ const storyStages = {
             { text: "Explore further", consequence: "page5" },
             { text: "Stay put", consequence: "page5" }
         ],
-        image: "images/page4B.jpg"
+        image: "page11.jpg"
     },
     page4C: {
         text: "You run into another explorer!",
@@ -77,7 +77,7 @@ const storyStages = {
             { text: "Talk to them", consequence: "page5" },
             { text: "Avoid them", consequence: "page5" }
         ],
-        image: "images/page4C.jpg"
+        image: "page12.jpg"
     },
     page4D: {
         text: "It's just a harmless animal.",
@@ -85,7 +85,7 @@ const storyStages = {
             { text: "Follow it", consequence: "page5" },
             { text: "Ignore it", consequence: "page5" }
         ],
-        image: "images/page4D.jpg"
+        image: "page10.jpg"
     },
     page4E: {
         text: "Inside the temple, you see ancient artifacts.",
@@ -93,7 +93,7 @@ const storyStages = {
             { text: "Examine them", consequence: "page5" },
             { text: "Leave quickly", consequence: "page5" }
         ],
-        image: "images/page4E.jpg"
+        image: "page5.jpg"
     },
     page4F: {
         text: "You walk around the temple and find an inscription.",
@@ -101,7 +101,7 @@ const storyStages = {
             { text: "Try to read it", consequence: "page5" },
             { text: "Ignore it", consequence: "page5" }
         ],
-        image: "images/page6.jpg"
+        image: "page6.jpg"
     },
     page5: {
         text: "The adventure ends here. Game over!",
